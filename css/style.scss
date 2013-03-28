@@ -54,10 +54,7 @@
   "import/ss-standard",
   "import/animation";
 
-
-
 // Styles
-
 @import "styles/base";
 
 @media (max-width: 768px) {
@@ -74,4 +71,12 @@
 
 @media (min-width: 1300px){
   @import "styles/large-screen";
+}
+
+.oldie{
+  @import 
+    "import/ie",
+    "styles/small-screen",
+    "styles/medium-screen",
+    "styles/oldie";
 }
