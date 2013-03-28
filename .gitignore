@@ -26,3 +26,7 @@ test/css/styles.css
 node_modules
 docs/public/*
 *.scssc
+
+# SymbolSet #
+############################################   
+webfonts-ss/
